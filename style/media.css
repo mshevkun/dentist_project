@@ -2,4 +2,12 @@
     .container {
       padding: 0;
     }
+
+    .navbar-nav li {
+      display: none;
+    }
+
+    .navbar-desktop li {
+      display: block;
+    }
   }
