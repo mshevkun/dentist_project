@@ -1,3 +1,8 @@
+:root {
+  --main-color: #1ebeb6;
+  --second-color: #115278;
+}
+
 body {
   font-family: "Maven Pro", Arial, Helvetica, sans-serif;
 }
@@ -49,7 +54,7 @@ a {
 }
 
 .topBar__icon {
-  color: #115278;
+  color: var(--second-color);
 }
 
 .topBar-section {
@@ -98,7 +103,7 @@ nav ul li .menu-section:before {
   transition: all .5s;
 }
 nav ul li .menu-section:hover {
-  color: #115278 !important;
+  color: var(--second-color) !important;
   font-weight: 700;
 }
 
@@ -114,7 +119,7 @@ nav.stroke ul li .menu-section:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #115278;
+  background: var(--second-color);
   height: 1px;
 }
 nav.stroke ul li .menu-section:hover:after {
@@ -130,8 +135,8 @@ nav.stroke ul li .menu-section:hover:after {
 }
 
 .main-btn {
-  background-color: #115278;
-  background-image: linear-gradient(to right,#115278 51%,#1ebeb6 100%);
+  background-color: var(--second-color);
+  background-image: linear-gradient(to right,var(--second-color) 51%,var(--main-color) 100%);
   color: #fff;
   background-position: 0 0;
   background-size: 200% 100%;
@@ -252,7 +257,7 @@ nav.stroke ul li .menu-section:hover:after {
 .presentation__name {
   display: block;
   font-size: 28px;
-  color: #115278;
+  color: var(--second-color);
   font-weight: 400;
   letter-spacing: -.02em;
   line-height: 20px;
@@ -280,7 +285,7 @@ nav.stroke ul li .menu-section:hover:after {
 }
 
 .consult-info__title {
-  color: #1ebeb6;
+  color: var(--main-color);
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -333,7 +338,7 @@ nav.stroke ul li .menu-section:hover:after {
 }
 
 .consult-info-text__title {
-  color: #115278;
+  color: var(--second-color);
   letter-spacing: -0.672px;
   line-height: 24px;
   font-family: "Playfair Display",Arial,Helvetica,sans-serif;
@@ -400,4 +405,48 @@ nav.stroke ul li .menu-section:hover:after {
 
 .modern-clinic__image {
   width: 100%;
+}
+
+.modern-clinic__title {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  color: rgb(17, 82, 120);
+}
+
+.modern-clinic__text {
+  font-size: 16px;
+  color: rgba(24, 24, 24, 0.6);
+  margin-top: 20px;
+}
+
+.modern-clinic__list-item {
+  list-style-type: none;
+  color: rgba(24, 24, 24, 0.6);
+  user-select: none;
+}
+
+.modern-clinic__list {
+  padding-left: 0 !important;
+}
+
+.modern-clinic__list-item-text {
+  cursor: pointer;
+}
+
+.modern-clinic__list-content-block:hover {
+  transform: translate(10px, 0px);
+  transition: all .5s;
+}
+
+.modern-clinic__list-content-block {
+  display: inline-block;
+}
+
+.modern-clinic__list-item-icon {
+  margin: 0 5px 10px 0;
+  cursor: pointer;
+  color: var(--second-color);
+  transform: scale(1.25);
+  transition: all .5s;
 }
