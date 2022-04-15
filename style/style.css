@@ -32,9 +32,12 @@ a {
   border-bottom: 1px solid rgba(255,255,255,.1);
   font-size: 14px;
   min-height: 36px;
-  position: absolute;
   z-index: 999;
   width: 100%;
+}
+
+.header-navbar {
+  z-index: 9;
 }
 
 .navbar, .navbar-desktop  {
@@ -251,7 +254,7 @@ nav.stroke ul li .menu-section:hover:after {
 
 .presentation__content {
   max-width: 660px;
-  margin: 74px auto 0 auto;
+  margin: 226px auto 0 auto;
 }
 
 .presentation__position {
@@ -508,6 +511,10 @@ nav.stroke ul li .menu-section:hover:after {
 
 .biography-row {
   padding-top: 170px;
+}
+
+.biography-tabs {
+  min-height: 482px;
 }
 
 .biography__name {

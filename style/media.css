@@ -4,10 +4,10 @@
     }
 
     .navbar-nav li {
-      display: none;
-    }
-
-    .navbar-desktop li {
       display: block;
     }
+
+    /* .navbar-desktop li {
+      display: block;
+    } */
   }
