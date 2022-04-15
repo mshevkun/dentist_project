@@ -513,6 +513,14 @@ nav.stroke ul li .menu-section:hover:after {
   padding-top: 170px;
 }
 
+.nav-tabs .nav-link.active {
+  color: var(--second-color)
+}
+
+.biography-tabs .nav-tabs {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .biography-tabs {
   min-height: 482px;
 }
