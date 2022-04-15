@@ -30,6 +30,11 @@ a {
 
 .top-bar {
   border-bottom: 1px solid rgba(255,255,255,.1);
+  font-size: 14px;
+  min-height: 36px;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
 }
 
 .navbar, .navbar-desktop  {
@@ -46,11 +51,6 @@ a {
   top: 0;
   left: 0;
   color: #fff;
-}
-
-.top-bar {
-  font-size: 14px;
-  min-height: 36px;
 }
 
 .topBar__icon {
@@ -170,6 +170,10 @@ nav.stroke ul li .menu-section:hover:after {
   z-index: 999;
 }
 
+.presentation-wrapper {
+  position: relative;
+}
+
 .presentation {
   background-image: url("../img/background.jpg");
   background-color: rgb(30, 190, 182);
@@ -179,6 +183,7 @@ nav.stroke ul li .menu-section:hover:after {
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
+  position: relative;
 }
 
 .presentation__image img {
@@ -449,4 +454,98 @@ nav.stroke ul li .menu-section:hover:after {
   color: var(--second-color);
   transform: scale(1.25);
   transition: all .5s;
+}
+
+.biography-bg {
+  background-image: url('../img/biography-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.biography-bg:before {
+  content: ' ';
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-color: var(--main-color);
+  opacity: 0.85;
+}
+
+.top-cover-block {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+  top: -1px;
+}
+
+.top-cover-block__bg-image, .bottom-cover-block__bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+}
+
+.bottom-cover-block {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+  bottom: -1px;
+}
+
+.biography {
+  z-index: 2;
+  color: #fff;
+}
+
+.biography-row {
+  padding-top: 170px;
+}
+
+.biography__name {
+  display: block;
+  font-size: 23px;
+  color: var(--second-color);
+  font-weight: 400;
+  letter-spacing: -.02em;
+  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  line-height: 23px;
+}
+
+.biography__surname {
+  display: block;
+  font-size: 38.4px;
+  line-height: 38.4px;
+  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+ 
+.biography-text {
+  max-width: 373px;
+}
+
+.biography-tabs {
+  z-index: 2;
+  color: #fff;
+}
+
+.biography-tabs .nav-link {
+  color: #fff;
+}
+
+.biography-tab-content {
+  padding-top: 16px;
+}
+
+.medical-checkup {
+  padding-bottom: 16px;
 }
