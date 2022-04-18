@@ -419,7 +419,7 @@ nav.stroke ul li .menu-section:hover:after {
   font-size: 32px;
   line-height: 40px;
   margin-bottom: 20px;
-  color: rgb(17, 82, 120);
+  color: var(--second-color);
 }
 
 .modern-clinic__text {
@@ -563,4 +563,25 @@ nav.stroke ul li .menu-section:hover:after {
 
 .medical-checkup {
   padding-bottom: 16px;
+}
+
+.benefits__item {
+  text-align: center;
+}
+
+.benefits__img {
+  margin-bottom: 30px
+}
+
+.benefits-title {
+  font-size: 23px;
+  color: var(--second-color);
+  /* font-family: "Playfair Display",Arial,Helvetica,sans-serif; */
+}
+
+.benefits__text {
+  font-size: 15px;
+  opacity: 0.7;
+  max-width: 230px;
+  margin: 0 auto;
 }
