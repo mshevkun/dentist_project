@@ -29,7 +29,7 @@ a {
 }
 
 .top-bar {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
   font-size: 14px;
   min-height: 36px;
   z-index: 999;
@@ -40,7 +40,8 @@ a {
   z-index: 9;
 }
 
-.navbar, .navbar-desktop  {
+.navbar,
+.navbar-desktop {
   background-color: transparent !important;
 }
 
@@ -100,11 +101,13 @@ nav ul li .menu-section {
   font-size: 16px;
   font-weight: 400;
 }
+
 nav ul li .menu-section,
 nav ul li .menu-section:after,
 nav ul li .menu-section:before {
   transition: all .5s;
 }
+
 nav ul li .menu-section:hover {
   color: var(--second-color) !important;
   font-weight: 700;
@@ -113,6 +116,7 @@ nav ul li .menu-section:hover {
 nav.stroke ul li .menu-section {
   position: relative;
 }
+
 nav.stroke ul li .menu-section:after {
   position: absolute;
   bottom: 0;
@@ -125,6 +129,7 @@ nav.stroke ul li .menu-section:after {
   background: var(--second-color);
   height: 1px;
 }
+
 nav.stroke ul li .menu-section:hover:after {
   width: 100%;
 }
@@ -139,7 +144,7 @@ nav.stroke ul li .menu-section:hover:after {
 
 .main-btn {
   background-color: var(--second-color);
-  background-image: linear-gradient(to right,var(--second-color) 51%,var(--main-color) 100%);
+  background-image: linear-gradient(to right, var(--second-color) 51%, var(--main-color) 100%);
   color: #fff;
   background-position: 0 0;
   background-size: 200% 100%;
@@ -203,6 +208,7 @@ nav.stroke ul li .menu-section:hover:after {
   line-height: 36px;
   margin-left: 5px;
   box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.8);
+  transition: all .5s;
 }
 
 .navbar-collapse {
@@ -245,6 +251,7 @@ nav.stroke ul li .menu-section:hover:after {
 .social-network .fa {
   font-size: 16px;
   color: #fff;
+  transition: all .5s;
 }
 
 .social-network:hover .fa {
@@ -269,7 +276,7 @@ nav.stroke ul li .menu-section:hover:after {
   font-weight: 400;
   letter-spacing: -.02em;
   line-height: 20px;
-  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }
 
 .presentation__surname {
@@ -277,7 +284,7 @@ nav.stroke ul li .menu-section:hover:after {
   font-size: 56px;
   font-weight: 700;
   text-shadow: 0 6px 10px rgb(0 0 0 / 10%);
-  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   line-height: 56px;
   margin-bottom: 30px;
 }
@@ -301,7 +308,7 @@ nav.stroke ul li .menu-section:hover:after {
 
 .consult-info__title h2 {
   font-size: 25px;
-  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   line-height: 25px;
   letter-spacing: -0.75px;
   font-weight: 400;
@@ -319,6 +326,7 @@ nav.stroke ul li .menu-section:hover:after {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all .5s;
 }
 
 .consult-info__contact-image img {
@@ -349,7 +357,7 @@ nav.stroke ul li .menu-section:hover:after {
   color: var(--second-color);
   letter-spacing: -0.672px;
   line-height: 24px;
-  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   text-transform: capitalize;
   font-size: 22.4px;
   font-weight: 400;
@@ -408,7 +416,7 @@ nav.stroke ul li .menu-section:hover:after {
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }
 
 .modern-clinic__image {
@@ -424,13 +432,15 @@ nav.stroke ul li .menu-section:hover:after {
 
 .modern-clinic__text {
   font-size: 16px;
-  color: #181818;;
+  color: #181818;
+  ;
   margin-top: 20px;
 }
 
 .modern-clinic__list-item {
   list-style-type: none;
-  color: #181818;;
+  color: #181818;
+  ;
   user-select: none;
 }
 
@@ -449,6 +459,7 @@ nav.stroke ul li .menu-section:hover:after {
 
 .modern-clinic__list-content-block {
   display: inline-block;
+  transition: all .5s;
 }
 
 .modern-clinic__list-item-icon {
@@ -488,7 +499,8 @@ nav.stroke ul li .menu-section:hover:after {
   top: -1px;
 }
 
-.top-cover-block__bg-image, .bottom-cover-block__bg-image {
+.top-cover-block__bg-image,
+.bottom-cover-block__bg-image {
   width: 100%;
   height: auto;
   display: block;
@@ -531,7 +543,7 @@ nav.stroke ul li .menu-section:hover:after {
   color: var(--second-color);
   font-weight: 400;
   letter-spacing: -.02em;
-  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   line-height: 23px;
 }
 
@@ -539,11 +551,11 @@ nav.stroke ul li .menu-section:hover:after {
   display: block;
   font-size: 38.4px;
   line-height: 38.4px;
-  font-family: "Playfair Display",Arial,Helvetica,sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   font-weight: 700;
   margin-bottom: 40px;
 }
- 
+
 .biography-text {
   max-width: 373px;
 }
@@ -594,7 +606,13 @@ nav.stroke ul li .menu-section:hover:after {
 }
 
 .services-item-image {
-  width: 100%;
+  transform: scale(1);
+  transition: .9s ease-in-out;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: -1px;
+
 }
 
 .services-item-image:hover {
@@ -626,12 +644,13 @@ nav.stroke ul li .menu-section:hover:after {
 .services-item-content {
   padding: 20px;
   background-color: #f5f9fa;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 12%), 0 6px 6px rgb(0 0 0 / 17%);
 }
 
 .services-item-text {
- color: rgba(24, 24, 24, 0.6);
- margin-top: 10px;
- margin-bottom: 0;
+  color: rgba(24, 24, 24, 0.6);
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .services-item-title {
@@ -641,4 +660,81 @@ nav.stroke ul li .menu-section:hover:after {
   text-transform: capitalize;
   font-size: 24px;
   font-weight: 400;
+}
+
+.contact-form-wrapper {
+  background-color: rgba(0, 175, 137, 1);
+  color: #fff;
+  margin-left: 35px;
+  box-shadow: 3px 19px 41px -19px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 3px 19px 41px -19px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 3px 19px 41px -19px rgba(0, 0, 0, 0.67);
+}
+
+.contact-form-content {
+  padding: 20px 50px;
+}
+
+.contact-form-content__title {
+  text-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+  font-size: 36px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-form-content__input:focus,
+.contact-form-content__textarea:focus {
+  box-shadow: 0 3px 20px rgb(34 34 34 / 20%), 0 0 0 2px rgb(34 34 34 / 25%) inset;
+  border: none !important;
+  outline: none !important;
+}
+
+.contact-form-content__input,
+.contact-form-content__textarea {
+  transition: all 500ms ease;
+  padding: 12px 25px;
+  border: none !important;
+  outline: none !important;
+  box-shadow: 1px 1px 3px 1px rgb(34 34 34 / 20%);
+}
+
+.contact-form-content__input {
+  width: 49%;
+}
+
+.contact-form-content__textarea {
+  width: 100%;
+}
+
+.contact-form-content__button {
+  background-color: var(--second-color);
+  background-image: linear-gradient(to right, #104099 51%, #00af89 100%);
+  color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 19px 25px;
+  margin-bottom: 44px;
+  box-shadow: 1px 1px 3px 1px rgb(34 34 34 / 20%);
+  border-radius: 0px;
+  border: none;
+}
+
+.contact-form-content__inputs-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-form-content__text {
+  margin-bottom: 20px;
+}
+
+.contact-form__image {
+  width: 100%;
+}
+
+.contact-form-image-block,
+.contact-form-content-block {
+  padding: 0px;
 }
