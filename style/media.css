@@ -1,13 +1,9 @@
 @media screen and (min-device-width:1200px) {
-    .container {
-      padding: 0;
-    }
-
-    .navbar-nav li {
-      display: block;
-    }
-
-    /* .navbar-desktop li {
-      display: block;
-    } */
+  .container {
+    padding: 0;
   }
+
+  .navbar-nav li {
+    display: block;
+  }
+}
