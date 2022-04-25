@@ -388,7 +388,7 @@ nav.stroke ul li .menu-section:hover:after {
   line-height: 24.5px;
 }
 
-.consult-info__time {
+.consult-info__time, .footer-col-hours-wrapper__time {
   color: #181818;
   opacity: 0.6;
   font-size: 14px;
@@ -467,14 +467,18 @@ nav.stroke ul li .menu-section:hover:after {
   transition: all .5s;
 }
 
-.biography-bg {
+.biography-bg, .footer-bg {
   background-image: url('../img/biography-bg.jpg');
   background-position: center center;
   background-size: cover;
   position: relative;
 }
 
-.biography-bg:before {
+.footer-bg {
+  background-image: none;
+}
+
+.biography-bg:before, .footer-bg:before {
   content: ' ';
   pointer-events: none;
   position: absolute;
@@ -790,4 +794,37 @@ nav.stroke ul li .menu-section:hover:after {
 .map-section {
   position: relative;
   overflow: hidden;
+}
+
+.footer div {
+  z-index: 2;
+}
+
+.footer__logo {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  max-width: 190px;
+}
+
+.footer-col-hours-wrapper__week-day {
+  font-size: 14px;
+}
+
+.footer-col-awards__logo {
+  max-width: 185px;
+}
+
+footer {
+  color: #fff;
+}
+
+.footer-col__phone-title {
+  font-size: 20px;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: var(--second-color);
+}
+
+.footer-col-phones-block__icon {
+  color: var(--second-color)
 }
