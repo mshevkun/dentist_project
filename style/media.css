@@ -46,4 +46,36 @@
   }
 }
 
-@media screen and (max-device-width:1140px) {}
+@media screen and (max-device-width:1000px) {
+  .presentation__content {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-device-width:992px) {
+  .presentation__content {
+    margin-top: 60px;
+    padding-bottom: 25px;
+  }
+  
+  .romy-main-image {
+    display: none;
+  }
+
+  .romy-mobile-main-image {
+    display: block;
+  }
+}
+
+@media screen and (max-device-width:800px) {
+  .presentation__content {
+    max-width: 84%;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-device-width:400px) {
+  .presentation__signature img {
+    width: 80%;
+  }
+}

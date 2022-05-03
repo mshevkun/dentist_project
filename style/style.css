@@ -1267,3 +1267,7 @@ cursor:pointer;
 .carousel-wrapper {
   margin-bottom: 100px !important;
 }
+
+.romy-mobile-main-image {
+  display: none;
+}
