@@ -8,6 +8,18 @@
   }
 }
 
+@media screen and (min-device-width:1450px) {
+  .romy-main-large {
+    display: block;
+  }
+
+  .romy-main-image, .romy-mobile-main-image {
+    display: none;
+  }
+}
+
+
+
 @media screen and (max-device-width:1320px) {
   .container {
     padding: 0 30px;
