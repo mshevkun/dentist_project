@@ -765,10 +765,6 @@ nav.stroke ul li .menu-section:hover:after {
   padding: 0px;
 }
 
-.section__indent {
-  margin-top: 100px !important;
-}
-
 .contact-us__title {
   font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   font-size: 38.4px;
@@ -1390,4 +1386,8 @@ h2.teeth-whitening__title {
 .progress-bar__title {
   margin-bottom: 3px;
   display: block;
+}
+
+.section__indent {
+  margin-top: 100px !important;
 }
