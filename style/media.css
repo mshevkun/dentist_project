@@ -1,3 +1,9 @@
+@media screen and (min-device-width:992px) {
+  .map-iframe {
+    width: 100%;
+  }
+}
+
 @media screen and (min-device-width:1200px) {
   .container {
     padding: 0;
@@ -13,7 +19,8 @@
     display: block;
   }
 
-  .romy-main-image, .romy-mobile-main-image {
+  .romy-main-image,
+  .romy-mobile-main-image {
     display: none;
   }
 }
@@ -58,9 +65,32 @@
   }
 }
 
+@media screen and (max-device-width:1110px) {
+  .contact-form-content__inputs-wrapper {
+    display: inherit;
+  }
+
+  .contact-form-content__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form-content__inputs-wrapper {
+    margin-bottom: 0;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 2000px;
+  }
+}
+
 @media screen and (max-device-width:1000px) {
   .presentation__content {
     margin-top: 100px;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1800px;
   }
 }
 
@@ -69,13 +99,53 @@
     margin-top: 60px;
     padding-bottom: 25px;
   }
-  
+
   .romy-main-image {
     display: none;
   }
 
   .romy-mobile-main-image {
     display: block;
+  }
+
+  .benefits__item {
+    margin-bottom: 50px;
+  }
+
+  .benefits__text {
+    max-width: 285px;
+  }
+
+  .footer-col {
+    max-width: inherit;
+  }
+
+  .footer-col-hours-wrapper {
+    max-width: 300px;
+  }
+
+  .footer__social-network,
+  .footer-nav__list {
+    justify-content: center !important;
+    margin-top: 25px !important;
+  }
+
+  .modern-clinic {
+    margin-top: 50px;
+  }
+
+  .map-section__background {
+    text-align: center;
+  }
+}
+
+@media screen and (max-device-width:860px) {
+  .contact-form-content {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .contact-form-content__title {
+    font-size: 25px;
   }
 }
 
@@ -84,10 +154,124 @@
     max-width: 84%;
     padding-bottom: 25px;
   }
+
+  h2.teeth-whitening__title {
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (max-device-width:768px) {
+  .biography-tabs {
+    margin-top: 30px;
+  }
+
+  .biography-text {
+    max-width: inherit;
+  }
+
+  .biography__surname {
+    margin-bottom: 20px;
+  }
+
+  .comparison-slider {
+    max-width: inherit;
+    margin-top: 50px;
+  }
+
+  .contact-form-wrapper {
+    margin-left: 0;
+  }
+
+  .teeth-whitening__content {
+    padding-right: 12px;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1600px;
+  }
+}
+
+@media screen and (max-device-width:600px) {
+  .biography-row {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+
+  .map-iframe {
+    margin-top: 0px !important;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .map-section__background {
+    display: none;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1400px;
+  }
+
+  .logo-desc {
+    display: none;
+  }
+
+  .logo-mob {
+    display: block;
+  }
+
+  .logo-mob {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-device-width:500px) {
+  .carousel-wrapper .gallery {
+    width: 1200px;
+  }
 }
 
 @media screen and (max-device-width:400px) {
   .presentation__signature img {
     width: 80%;
+  }
+
+  .consult-info {
+    padding: 30px 20px;
+  }
+
+  .map-iframe {
+    height: 300px;
+  }
+
+  .logo-mob {
+    max-width: 55%;
+  }
+
+  .carousel-wrapper .gallery {
+    width: 1100px;
+  }
+}
+
+@media screen and (max-device-width:340px) {
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .btn__line:nth-child(1) {
+    right: -2px;
+  }
+
+  .btn__line {
+    width: 26px;
+  }
+
+  .btn__line:nth-child(2) {
+    right: 2px;
+  }
+
+  .btn__line:nth-child(3) {
+    right: -2px;
   }
 }

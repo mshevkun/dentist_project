@@ -200,7 +200,7 @@ nav.stroke ul li .menu-section:hover:after {
   width: 100%;
 }
 
-.social-network {
+/* .social-network {
   position: relative;
   width: 36px;
   height: 36px;
@@ -211,13 +211,13 @@ nav.stroke ul li .menu-section:hover:after {
   margin-left: 5px;
   box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.8);
   transition: all .5s;
-}
+} */
 
 .navbar-collapse {
   justify-content: right;
 }
 
-.social-network:hover {
+/* .social-network:hover {
   transform: scale(1.2);
   transition: all .5s;
 }
@@ -236,9 +236,9 @@ nav.stroke ul li .menu-section:hover:after {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
-.presentation__social-network-linkedin {
+/* .presentation__social-network-linkedin {
   background: rgba(40, 103, 178, .5);
 }
 
@@ -248,14 +248,14 @@ nav.stroke ul li .menu-section:hover:after {
 
 .presentation__social-network_facebook {
   background: rgba(59, 89, 152, .5);
-}
+} */
 
 .footer__social-network a {
   background-color: var(--second-color);
   margin-left: 8px;
 }
 
-.social-network .fa {
+/* .social-network .fa {
   font-size: 16px;
   color: #fff;
   transition: all .5s;
@@ -264,7 +264,7 @@ nav.stroke ul li .menu-section:hover:after {
 .social-network:hover .fa {
   text-shadow: 0px 3px 3px rgba(32, 31, 31, 0.3);
   transition: all .5s;
-}
+} */
 
 .presentation__content {
   max-width: 82%;
@@ -371,6 +371,7 @@ nav.stroke ul li .menu-section:hover:after {
   margin-left: 16px;
   line-height: 22.5px;
   font-size: 15px;
+  max-width: 140px;
 }
 
 .consult-info-text__title,
@@ -547,6 +548,7 @@ nav.stroke ul li .menu-section:hover:after {
 
 .biography-row {
   padding-top: 170px;
+  padding-bottom: 100px;
 }
 
 .nav-tabs .nav-link.active {
@@ -558,7 +560,7 @@ nav.stroke ul li .menu-section:hover:after {
 }
 
 .biography-tabs {
-  min-height: 482px;
+  min-height: 350px;
 }
 
 .biography__name {
@@ -627,6 +629,7 @@ nav.stroke ul li .menu-section:hover:after {
 
 .services-title-block {
   text-align: center;
+  width: 100%;
 }
 
 .services-item-image {
@@ -806,10 +809,12 @@ nav.stroke ul li .menu-section:hover:after {
 
 .map-section__map {
   max-height: 610px;
+  text-align: center;
 }
 
 .map-section__background img {
   max-width: 100%;
+  height: 100%;
 }
 
 .map-section {
@@ -889,8 +894,14 @@ footer {
 }
 
 .footer-nav__list {
+  display: flex;
   padding-left: 12px;
   margin-bottom: auto !important;
+  flex-wrap: wrap;
+}
+
+.logo-mob {
+  display: none;
 }
 
 .footer-nav__elem a {
@@ -1323,7 +1334,6 @@ footer {
   box-shadow: 3px 19px 41px -19px rgb(0 0 0 / 67%);
   -webkit-box-shadow: 3px 19px 41px -19px rgb(0 0 0 / 67%);
   max-width: 500px;
-  margin-bottom: 30px;
   cursor: pointer;
 }
 
@@ -1350,20 +1360,24 @@ footer {
 }
 
 h3.teeth-whitening__title {
-  font-size: 39px;
+  font-size: 23px;
   color: var(--second-color);
   font-weight: 400;
   letter-spacing: -0.780096px;
-  line-height: 39px;
-  margin-bottom: 0px;
+  line-height: 23px;
+  margin-bottom: 0px
+}
+
+.teeth-whitening__content {
+  padding-right: 40px;
 }
 
 h2.teeth-whitening__title {
-  font-size: 65px;
+  font-size: 38.4px;
   color: var(--second-color);
   font-weight: 700;
   letter-spacing: -1.95024px;
-  line-height: 65.008px;
+  line-height: 38.4px;
   margin-bottom: 30px;
 }
 
@@ -1390,4 +1404,61 @@ h2.teeth-whitening__title {
 
 .section__indent {
   margin-top: 100px !important;
+}
+
+.whatsapp-button {
+    position: fixed;
+    right: 13px;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    background: #25D366; /*цвет кнопки*/
+    border-radius: 50%;
+    width: 55px; /*ширина кнопки*/
+    height: 55px; /*высота кнопки*/
+    color: #fff;
+    text-align: center;
+    line-height: 53px; /*центровка иконки в кнопке*/
+    font-size: 35px; /*размер иконки*/
+    z-index: 9999;
+}
+.whatsapp-button a {
+    color: #fff;
+}
+.whatsapp-button:before,
+.whatsapp-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #fff; /*цвет анимированных волн от кнопки*/
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+}
+ 
+.whatsapp-button:after{
+    animation-delay: .5s;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
 }
