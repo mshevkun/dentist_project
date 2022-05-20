@@ -52,14 +52,4 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   contactFormClassesChange(mql)
-
-  // Close mobile munu after click on mobile nav-link
-
-  // const mobileLink = document.querySelector('.nav__link-mobile')
-  // const mobileNavMenu = document.querySelector('.full-menu')
-
-  // navItems.addEventListener('click', () => {
-  //   navItems.not(document.querySelector(this)).classList.toggle('nav__item--hover');
-  //   mobileNavMenu.classList.remove('menu--open')
-  // })
 });
